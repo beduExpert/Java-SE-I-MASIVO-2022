@@ -1,4 +1,4 @@
-## Ejemplo 03: Lectura desde el teclado con Scanner y Console.
+## Ejemplo 01: Lectura desde el teclado con Scanner y Console.
 
 ### OBJETIVO
 
