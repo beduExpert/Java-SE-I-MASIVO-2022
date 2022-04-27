@@ -8,12 +8,12 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Polimorfismo
-	- [Ejemplo 01](Ejemplo-01)
+	- [Ejemplo 01: IS-A](Ejemplo-01)
 
 - Sobreescritura
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
-	
+	- [Ejemplo 02: Super y sobreescritura de métodos](Ejemplo-02)
+	- [Reto 02: Métodos virtuales](Reto-02)
+
 - Colecciones
-	- [Ejemplo 03](Ejemplo-03)
-	- [Reto 03](Reto-03)
+	- [Ejemplo 03: Uso de colecciones](Ejemplo-03)
+	- [Reto 03: Collections](Reto-03)

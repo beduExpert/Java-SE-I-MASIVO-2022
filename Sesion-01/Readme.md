@@ -10,15 +10,15 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Hola mundo con IntelliJ IDEA
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-	
-- Línea de comandos
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 01: Hola mundo con ItelliJ IDEA](Ejemplo-01)
+	- [Reto 01: Saluda con tu nombre](Reto-01)
 
- - Creación de archivo Jar
- 	- [Ejemplo 03](Ejemplo-03)
-	
- - Orientación a Objetos
- 	- [Ejemplo 04](Ejemplo-04)
+- Línea de comandos
+	- [Ejemplo 02: Hola mundo desde la línea de comandos](Ejemplo-02)
+	- [Reto 02: Recepción de parámetros desde IntelliJ IDEA](Reto-02)
+
+- Creación de archivo Jar
+	- [Ejemplo 03: Creación de archivo Jar](Ejemplo-03)
+
+- Orientación a Objetos
+	- [Ejemplo 04: Programación Orientada a Objetos](Ejemplo-04)

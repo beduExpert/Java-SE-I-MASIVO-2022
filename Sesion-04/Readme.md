@@ -9,10 +9,9 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Inicialización
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+	- [Ejemplo 01: Bloques de inicialización](Ejemplo-01)
+	- [Reto 01: Constructores](Reto-01)
 
 - Equals y hashCode
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
+	- [Ejemplo 02: Método hashCode](Ejemplo-02)
+	- [Reto 02: Método equals](Reto-02)

@@ -10,14 +10,12 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Tipos de datos, declaraciones y longitudes
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+	- [Ejemplo 01: Declaración y asignación de valores a tipos primitivos](Ejemplo-01)
+	- [Reto 01: Desbordamiento de valores](Reto-01)
 
 - Sentencias condicionales
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
-	
-	
+	- [Ejemplo 02: Uso de switch](Ejemplo-02)
+	- [Reto 02: Uso de if](Reto-02)
+
 - Sentencias de ciclos o bucles
-	- [Ejemplo 03](Ejemplo-03)
+	- [Ejemplo 03: Uso de for y while](Ejemplo-03)

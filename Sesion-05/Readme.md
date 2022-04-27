@@ -9,14 +9,12 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Miembros estáticos y finales
-	- [Ejemplo 01](Ejemplo-01)
-	- [Reto 01](Reto-01)
-
+	- [Ejemplo 01: Atributos estáticos](Ejemplo-01)
+	- [Reto 01: Bloques estáticos](Reto-01)
 
 - Herencia
-	- [Ejemplo 02](Ejemplo-02)
-	- [Reto 02](Reto-02)
-	
-	
+	- [Ejemplo 02: Herencia](Ejemplo-02)
+	- [Reto 02: Herencia de personas](Reto-02)
+
 - Sobrecarga
-	- [Ejemplo 03](Ejemplo-03)
+	- [Ejemplo 03: Sobrecarga de métodos](Ejemplo-03)
