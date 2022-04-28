@@ -22,3 +22,6 @@
 
 - Orientación a Objetos
 	- [Ejemplo 04: Programación Orientada a Objetos](Ejemplo-04)
+
+- Tarea
+	- [Mi programa con compilación por IDE y línea de comandos](./tarea)
