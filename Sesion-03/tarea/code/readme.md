@@ -28,11 +28,10 @@
     * litrosActuales: int
     * litrosMaximos: int
     * usaCombustible(): void
+* Todos los atributos deben tener setter & getter para poder leerse y escribirse,
 * El `Combustible` se debe gastar un litro cada vez que se mueva el auto y debe mostrar la cantidad de litros que quedan.
 * Las `llantas` deben poder rodar mostrando un mensaje que indique que están rodando.
 * El `vehículo` debe tener la capacidad de que se le coloquen las cuatro llantas y el combustible, además de avanzar (rodando las llantas y usando el combustible), sino hay combustible el auto no debe poder avanzar.
-* Todos los atributos de todas las clases deben poder leerse y escribirse con métodos de la clase (getter y setter).
-
 
 ## 📝 Solución
 <details>
