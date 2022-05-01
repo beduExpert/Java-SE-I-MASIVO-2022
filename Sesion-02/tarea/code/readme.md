@@ -1,9 +1,9 @@
-# Tarea 02: XXX
+# Tarea 02: Números primos
 
 ## 🎯 Objetivo
 
-* 
-* 
+* Practicar la POO
+* Hacer uso de ciclos y condiciones en Java
 
 ## 🧾 Requisitos
 
@@ -13,7 +13,16 @@
 
 ## 💻 Desarrollo
 
-* 
+Aplica los conceptos vistos en esta sesión para resolver lo siguiente:
+* Crea un proyecto.
+* Crea una clase principal.
+* Crea la clase Primos que contenga un método `esPrimo` para determinar si un número dado es primo o no.
+* En la clase principal, dentro del método `main`, define:
+  * un `int` para determinar el `limiteSuperior`
+  * una instancia de `Primos` para poder invocar el método `esPrimo`
+  * un ciclo para iterar hasta el número definido en `limiteSuperior`
+* Imprime todos los números primos encontrados
+
 
 ## 📝 Solución
 <details>
