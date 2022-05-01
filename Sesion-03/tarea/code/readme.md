@@ -1,9 +1,9 @@
-# Tarea 03: XXX
+# Tarea 03: Clases y objetos
 
 ## 🎯 Objetivo
 
-* 
-* 
+* Usar la composición para generar un objeto más complejo
+* Practicar las relaciones `Has-A`
 
 ## 🧾 Requisitos
 
@@ -13,7 +13,26 @@
 
 ## 💻 Desarrollo
 
-* 
+* Crea las clases:
+  * Vehiculo
+    * llantas: Llanta[4]
+    * combustible: Combustible
+    * setCombustible(Combustible combustible): void
+    * colocaLlantas(Llanta delanteraIzquierda, Llanta delanteraDerecha, Llanta traseraIzquierda, Llanta traseraDerecha): void
+  * Llanta
+    * ancho: float
+    * diametro: float
+    * presion: float
+    * rueda(): void
+  * Combustible
+    * litrosActuales: int
+    * litrosMaximos: int
+    * usaCombustible(): void
+* El `Combustible` se debe gastar un litro cada vez que se mueva el auto y debe mostrar la cantidad de litros que quedan.
+* Las `llantas` deben poder rodar mostrando un mensaje que indique que están rodando.
+* El `vehículo` debe tener la capacidad de que se le coloquen las cuatro llantas y el combustible, además de avanzar (rodando las llantas y usando el combustible), sino hay combustible el auto no debe poder avanzar.
+* Todos los atributos de todas las clases deben poder leerse y escribirse con métodos de la clase (getter y setter).
+
 
 ## 📝 Solución
 <details>
