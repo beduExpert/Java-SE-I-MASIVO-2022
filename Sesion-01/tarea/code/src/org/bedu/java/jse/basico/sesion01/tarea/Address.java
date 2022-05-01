@@ -1,11 +1,14 @@
 package org.bedu.java.jse.basico.sesion01.tarea;
 
 public class Address {
+
     private String calle;
     private String exterior;
     private String interior;
     private String colonia;
     private String alcaldia;
+    private String ciudad;
+    private String estado;
     private String codigoPostal;
 
     public String getCalle() {
@@ -46,6 +49,22 @@ public class Address {
 
     public void setAlcaldia(String alcaldia) {
         this.alcaldia = alcaldia;
+    }
+
+    public String getCiudad() {
+        return ciudad;
+    }
+
+    public void setCiudad(String ciudad) {
+        this.ciudad = ciudad;
+    }
+
+    public String getEstado() {
+        return estado;
+    }
+
+    public void setEstado(String estado) {
+        this.estado = estado;
     }
 
     public String getCodigoPostal() {
