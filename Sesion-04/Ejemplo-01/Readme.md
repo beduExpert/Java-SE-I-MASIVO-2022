@@ -1,4 +1,4 @@
-# Ejemplo 01: Bloques de inicialización
+# Ejemplo 01: Modificadores de acceso
 
 ## Objetivo
 

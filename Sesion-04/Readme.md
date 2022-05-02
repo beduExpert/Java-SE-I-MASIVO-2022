@@ -9,7 +9,7 @@
 #### ORGANIZACION DE LA CLASE 
 
 - Inicialización
-	- [Ejemplo 01: Bloques de inicialización](Ejemplo-01)
+	- [Ejemplo 01: Modificadores de accesso](Ejemplo-01)
 	- [Reto 01: Constructores](Reto-01)
 
 - Equals y hashCode
