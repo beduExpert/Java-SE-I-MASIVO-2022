@@ -135,7 +135,7 @@ como podemos ver, en el segundo bloque se sobrescribe el valor que se había est
         curso = "Java Standard edition";
         sesion = 4;
         objetivo = "Dominar Java";
-    }ez
+    }
 ``` 
 
 13. Ejecuta la aplicación para comprobarlo:
