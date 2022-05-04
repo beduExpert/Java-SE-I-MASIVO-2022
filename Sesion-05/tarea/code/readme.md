@@ -2,8 +2,7 @@
 
 ## 🎯 Objetivo
 
-* 
-* 
+* Aprender el correcta declaración, uso y asignación de miembros estáticos.
 
 ## 🧾 Requisitos
 
@@ -13,7 +12,26 @@
 
 ## 💻 Desarrollo
 
-* 
+En esta tarea deberás crear una nueva clase con una variable estática llamada valor, la cual deberás declarar de la siguiente forma:
+
+```java
+	private static int valor;
+```
+Realiza las modificaciones necesarias para que te asegures que nadie pueda modificar el valor asignado a la variable `valor`. Esta variable debe inicializarse fuera de cualquier método, estableciendo el valor de tu preferencia.
+
+Posteriormente, debes crear un método que permita mostrar el valor de la variable anterior.
+
+Tu aplicación deberá ejecutarse con el siguiente método *main* (no puedes agregar ni modificar ninguna línea de código a este método):
+
+```java
+    public static void main(String[] args) {
+
+        Bloques.muestaValor();
+
+    }
+```
+
+**Nota:** recuerda que los constructores no son considerados métodos.
 
 ## 📝 Solución
 <details>
