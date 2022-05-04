@@ -1,4 +1,4 @@
-# Tarea 05: XXX
+# Tarea 05: Herencia
 
 ## 🎯 Objetivo
 
