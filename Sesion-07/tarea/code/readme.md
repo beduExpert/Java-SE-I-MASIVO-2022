@@ -1,4 +1,4 @@
-# Tarea 07: XXX
+# Tarea 07: Colecciones
 
 ## 🎯 Objetivo
 
