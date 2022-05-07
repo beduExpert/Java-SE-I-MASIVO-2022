@@ -2,8 +2,8 @@
 
 ## 🎯 Objetivo
 
-* 
-* 
+* Practicar el uso de colecciones de colecciones
+* Implementar relaciones poliformicas
 
 ## 🧾 Requisitos
 
@@ -13,7 +13,50 @@
 
 ## 💻 Desarrollo
 
-* 
+* Genera la siguiente estructura de paquetes y clases
+  * `org.bedu.java.jse.basico.sesion07.tarea`
+    * `Main` - para ejecutar el programa
+    * `Articulo` - Clase abstracta base para cualquier artículo
+      * Articulo(String departamento, double precio)
+      * Articulo(String departamento)
+      * Articulo(double precio)
+      * departamento: String
+      * precio: double
+    * `Inventario` - Clase para controlar la gestión de los artículos
+      * inventario: Map<String, List<Articulo>>
+      * agregaArticulo(String tipo, Articulo articulo): void
+      * getArticulosDisponibles(): List<Articulo>
+  * `org.bedu.java.jse.basico.sesion07.tarea.electronico`
+    * `ArticuloElectronico` - clase abstracta base para artículos electrónicos que es subclase de `Articulo`
+      * ArticuloElectronica(String departamento, double precio, String fabricante, String modelo)
+      * fabricante: String
+      * modelo: String
+    * `Laptop` subclase de `ArticuloElectronico`
+      * Laptop(double precio, String fabricante, String modelo)
+    * `Pantalla` subclase de `ArticuloElectronico`
+      * Pantalla(double precio, String fabricante, String modelo)
+    * `Tablet` subclase de `ArticuloElectronico`
+      * Tablet(double precio, String fabricante, String modelo)
+* Encapsula los elementos de las clases y solo expón los getters
+* En inventario define
+  * `agregaArticulo(String tipo, Articulo articulo)` para que te permita agregar nuevos artículos generando el key cuando no existe o sumandolos al mismo en caso contrario
+  * `getArticulosDisponibles()` para que te regrese una `List<Articulo>` con todos los elementos del inventario
+* Dentro de la clase `Main` en su método `main` instancia cuando menos tres elementos de cada artículo electrónico teniendo como variable de referencia ArtículoElectronico donde el modelo debe ser el mismo para algunos de los artícilos argregados
+, por ejemplo:
+```java
+ArticuloElectronica tb001_1 = new Tablet(12_000,"Huawei", "TB001");
+ArticuloElectronica tb001_2 = new Tablet(12_000,"Huawei", "TB001");
+ArticuloElectronica tb003 = new Tablet(18_000,"Huawei", "TB003");
+
+inventario.agregaArticulo(tb001_1.getModelo(),tb001_1);
+inventario.agregaArticulo(tb001_2.getModelo(),tb001_2);
+inventario.agregaArticulo(tb003.getModelo(),tb003);
+```
+
+* Debes obtener una salida similar a la siguiente:
+```shell
+getArticulosDisponibles: [ArticuloElectronica{departamento='ELECTRONICA'precio='12000.0'fabricante='Acer', modelo='AC003'}, ArticuloElectronica{departamento='ELECTRONICA'precio='10000.0'fabricante='Samsung', modelo='PN001'}, ArticuloElectronica{departamento='ELECTRONICA'precio='10000.0'fabricante='Samsung', modelo='PN001'}, ArticuloElectronica{departamento='ELECTRONICA'precio='18000.0'fabricante='Huawei', modelo='TB003'}, ArticuloElectronica{departamento='ELECTRONICA'precio='15000.0'fabricante='Acer', modelo='AC001'}, ArticuloElectronica{departamento='ELECTRONICA'precio='15000.0'fabricante='Acer', modelo='AC001'}, ArticuloElectronica{departamento='ELECTRONICA'precio='12000.0'fabricante='Huawei', modelo='TB001'}, ArticuloElectronica{departamento='ELECTRONICA'precio='12000.0'fabricante='Huawei', modelo='TB001'}, ArticuloElectronica{departamento='ELECTRONICA'precio='15000.0'fabricante='Samsung', modelo='PN003'}]
+```
 
 ## 📝 Solución
 <details>
