@@ -1,9 +1,9 @@
-# Tarea 06: XXX
+# Tarea 06: Polimorfismo
 
 ## 🎯 Objetivo
 
-* 
-* 
+* Diseñar relaciones Poliformicas
+* Implementar el polimorfismo en un caso práctico
 
 ## 🧾 Requisitos
 
@@ -13,7 +13,28 @@
 
 ## 💻 Desarrollo
 
-* 
+* Genera la siguiente estructura de paquetes y clases
+  * `org.bedu.java.jse.basico.sesion06.tarea`
+	* `Main` - clase principal para ejecutar el proyecto
+	* `Cuenta` - Clase abstracta para modelar una cuenta
+		* INSTITUCION: String, constante
+		* TIPO: String, constante
+		* MIN: int, constante
+		* MAX: int, constante
+		* Inicializa las constantes en un bloque de inicialización
+	* `CuentaRoja` - subclase de `Cuenta` que enmascara las constantes TIPO, MIN y MAX inicializando sus valores en un bloque de inicialización
+	* `CuentaOro` - subclase de `Cuenta` que enmascara las constantes TIPO, MIN y MAX inicializando sus valores en un bloque de inicialización
+	* `CuentaPlatinum` - subclase de `Cuenta` que enmascara las constantes TIPO, MIN y MAX inicializando sus valores en un bloque de inicialización
+	* `Usuario` - clase que modela un cuentahabiente
+		* Usuario(String nombre, String apellido, int edad)
+		* Usuario(String nombre, String apellido, int edad, Cuenta cuenta)
+		* nombre: String
+		* apellido: String
+		* edad: int
+		* cuenta: Cuenta
+* Para todas las clases que no sean la principal, sigue el principio de encapsulamiento y sobre escribe el método `toString` para tener una representación clara
+* Dentro del método `main`, Intenta generar una instancia de la clase abstracta `Cuenta`, ¿entiendes por qué pasa esto?
+* Genera algunos usuarios pasando cuentas de distintos tipos e imprimelos
 
 ## 📝 Solución
 <details>
