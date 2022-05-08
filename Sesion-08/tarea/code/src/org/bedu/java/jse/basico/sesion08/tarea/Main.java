@@ -1,8 +1,16 @@
 package org.bedu.java.jse.basico.sesion08.tarea;
 
+import java.io.IOException;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Tarea 08");
+        CsvManager csvManager = new CsvManager("./programmers.csv");
+        try {
+            csvManager.generaArchivoCsv();
+            csvManager.leeArchivoCsv();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
