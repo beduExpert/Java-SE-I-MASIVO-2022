@@ -2,7 +2,7 @@
 
 ## 🎯 Objetivo
 
-* Aprender el correcta declaración, uso y asignación de miembros estáticos.
+* Aprender la correcta declaración, uso y asignación de miembros estáticos.
 
 ## 🧾 Requisitos
 
