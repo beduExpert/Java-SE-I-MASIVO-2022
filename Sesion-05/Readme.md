@@ -10,7 +10,7 @@
 
 - Miembros estáticos y finales
 	- [Ejemplo 01: Atributos estáticos](Ejemplo-01)
-	- [Reto 01: Bloques estáticos](Reto-01)
+	- [Reto 01: Miembros estáticos](Reto-01)
 
 - Herencia
 	- [Ejemplo 02: Herencia](Ejemplo-02)
