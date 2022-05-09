@@ -14,4 +14,4 @@
 
 - Clases propias
 	- [Ejemplo 02: Clase propia](Ejemplo-02)
-	- [Reto 02: Clase Vehiculo y composición de clases](Reto-02)
+	- [Reto 02: Composición de clases](Reto-02)

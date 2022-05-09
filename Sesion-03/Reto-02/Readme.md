@@ -1,4 +1,4 @@
-## Reto 02: Clase Vehiculo y composición de clases
+## Reto 02: Composición de clases
 
 ### OBJETIVO 
 
