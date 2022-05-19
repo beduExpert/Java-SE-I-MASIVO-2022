@@ -4,7 +4,7 @@
 
 * Crear un proyecto Java en `IntelliJ IDEA`.
 * Crear un proyecto `JavaSE` practicando la relación `has-a` en un esquema `uno-a-uno`.
-* Conocer el método `toString()` para representar un objeto en la consola
+* Conocer el método `toString()` para representar un objeto en la consola.
 
 ## 🧾 Requisitos
 
@@ -33,14 +33,14 @@
         * colonia: String
         * alcaldia: String
         * codigoPostal: String
-    * En la clase principal genera instancias de `Persona` `“seteando”` todos los valores correspondientes e imprime el resultado en la consola
+    * En la clase principal genera instancias de `Persona` `“seteando”` todos los valores correspondientes e imprime el resultado en la consola.
 
 
 ## 📝 Solución
 <details>
 	<summary>mostrar</summary>
 
-Cuando tengas tu propuesta, puedes compararla con la que se propone en este directorio observando los siguientes puntos
+Cuando tengas tu propuesta, puedes compararla con la que se propone en este directorio observando los siguientes puntos:
 
 * En la carpeta `code` está el proyecto
 * En la code `src` está el código
